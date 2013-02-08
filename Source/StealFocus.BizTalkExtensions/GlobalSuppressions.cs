@@ -7,3 +7,4 @@
 // Error ListQueues, point to "Suppress Message(s)", and click 
 // "In Project Suppression File".
 // You do not need to add suppressions to this file manually.
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Reliability", "CA2000:Dispose objects before losing scope", Scope = "member", Target = "StealFocus.BizTalkExtensions.BizTalkCatalogExplorer.#.ctor(System.String)")]
